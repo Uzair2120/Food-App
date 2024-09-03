@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/constants/colors.dart';
+import '../../widgets/CustomAppbar.dart';
 
 
 class HomePage extends StatefulWidget{
@@ -13,9 +15,13 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('Home Page'),
-      ),
+      backgroundColor: kbackground,
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          CustomAppBar(Icons.search , Icons.arrow_back_ios_outlined)
+        ],
+      )
     );
   }
 }
