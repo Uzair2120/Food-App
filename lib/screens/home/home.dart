@@ -39,14 +39,29 @@ class _HomePageState extends State<HomePage> {
             Expanded(
               child: FoodListView(selected, (int index) {
                 setState(() {
-                  print(index);
                   selected = index;
                   pageController.jumpToPage(index);
                 });
               }, pageController, restaurant),
             ),
 
-            Container
+            Container(
+              padding: EdgeInsets.all(30),
+              child: SmoothPageIndicator(controller: pageController, count: restaurant.menu.length,
+                effect: CustomizableEffect(dotDecoration: DotDecoration(
+                  width: 8,
+                  height: 8,
+                  color: Colors.grey.withOpacity(0.5),
+                  borderRadius: BorderRadius.circular(8)
+                ), activeDotDecoration: DotDecoration(
+                  width: 12,
+                  height: 12,
+                  borderRadius: BorderRadius.circular(12),
+                  color: kPrimaryColor,
+                )),
+                onDotClicked: (index) => pageController.jumpToPage(index),
+              ),
+            )
           ],
         ));
   }
