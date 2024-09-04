@@ -4,6 +4,7 @@ import 'package:food_delivery_app/models/restaurant.dart';
 import 'package:food_delivery_app/screens/home/homeWidgets/foodList.dart';
 import 'package:food_delivery_app/screens/home/homeWidgets/foodListView.dart';
 import '../../widgets/CustomAppbar.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'homeWidgets/restaurant_info.dart';
 
 class HomePage extends StatefulWidget {
@@ -44,6 +45,8 @@ class _HomePageState extends State<HomePage> {
                 });
               }, pageController, restaurant),
             ),
+
+            Container
           ],
         ));
   }
