@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/constants/colors.dart';
 import '../../widgets/CustomAppbar.dart';
+import 'homeWidgets/restaurant_info.dart';
 
 
 class HomePage extends StatefulWidget{
@@ -19,7 +20,10 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          CustomAppBar(Icons.search , Icons.arrow_back_ios_outlined)
+          CustomAppBar(Icons.search , Icons.arrow_back_ios_outlined),
+          SizedBox(height: 30,),
+          RestaurantInfo()
+
         ],
       )
     );
