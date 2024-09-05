@@ -25,8 +25,8 @@ class Restaurant {
         {
           'Recommended' : Food.generateRecommendedFoods(),
           'Popular' : Food.generatePopularFoods(),
-          'Noodles' : [],
-          'Pizza' : []
+          'Noodles' : Food.generateNoodles(),
+          'Pizza' : Food.generatePizza()
         }
     );
   }
