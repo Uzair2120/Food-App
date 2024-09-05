@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            CustomAppBar(Icons.search, Icons.arrow_back_ios_outlined),
+            Container(child: CustomAppBar(Icons.search, Icons.arrow_back_ios_outlined)),
             SizedBox(
               height: 30,
             ),

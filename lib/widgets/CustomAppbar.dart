@@ -16,7 +16,7 @@ class CustomAppBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           GestureDetector(
-            onTap: leftCallback != null ? leftCallback!() : null,
+            onTap: leftCallback != null ? ()=>leftCallback!() : null,
               child: _buildIcon(leftIcon),
           ),
           _buildIcon(rightIcon)
