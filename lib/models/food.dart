@@ -26,7 +26,7 @@ class Food {
           5,
           '350 kcal',
           15,
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
           [
             {'Noodle': 'assets/images/ingre1.png'},
             {'Shrimp': 'assets/images/ingre2.png'},
@@ -43,7 +43,7 @@ class Food {
         7,
         '325 kcal',
         18,
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
         [
           {'Noodle': 'assets/images/ingre1.png'},
           {'Shrimp': 'assets/images/ingre2.png'},
@@ -60,7 +60,7 @@ class Food {
           10,
           '400 kcal',
           20,
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
           [
             {'Noodle': 'assets/images/ingre1.png'},
             {'Shrimp': 'assets/images/ingre2.png'},
@@ -82,7 +82,7 @@ class Food {
           11,
           '450 kcal',
           19,
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
           [
             {'Noodle': 'assets/images/ingre1.png'},
             {'Shrimp': 'assets/images/ingre2.png'},
@@ -99,7 +99,7 @@ class Food {
         7,
         '325 kcal',
         18,
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
         [
           {'Noodle': 'assets/images/ingre1.png'},
           {'Shrimp': 'assets/images/ingre2.png'},
