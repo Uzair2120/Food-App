@@ -22,7 +22,8 @@ class DetailsPage extends StatelessWidget {
                   Icons.arrow_back_ios_new_outlined,
                   leftCallback: () => Navigator.of(context).pop()),
               FoodImg(food),
-              FoodDetails(food)
+              FoodDetails(food),
+
             ],
           ),
         ));

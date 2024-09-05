@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/constants/colors.dart';
 import 'package:food_delivery_app/models/food.dart';
+import 'package:food_delivery_app/screens/detailsPage/detailsWidgets/foodQuantity.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class FoodDetails extends StatelessWidget{
@@ -28,8 +29,10 @@ class FoodDetails extends StatelessWidget{
               _IconsButtonText(Icons.star_border_outlined, Colors.amber, food.score.toString()),
               _IconsButtonText(Icons.local_fire_department_outlined, Colors.red, food.cal),
             ],
-          )
+          ),
 
+          SizedBox(height: 30,),
+          FoodQuantity(food),
         ]
       ),
     );
