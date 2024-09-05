@@ -68,6 +68,40 @@ class Food {
             {'Scallion': 'assets/images/ingre4.png'},
           ],
           highlight: true),
+      Food(
+          'Tomato Chicken',
+          'assets/images/dish4.png',
+          'Most Popular',
+          '40 mins',
+          4.6,
+          11,
+          '450 kcal',
+          19,
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
+          [
+            {'Noodle': 'assets/images/ingre1.png'},
+            {'Shrimp': 'assets/images/ingre2.png'},
+            {'Egg': 'assets/images/ingre3.png'},
+            {'Scallion': 'assets/images/ingre4.png'},
+          ],
+          highlight: true),
+      Food(
+        'Sai Ua Samun Phrai',
+        'assets/images/dish2.png',
+        'Low Fat',
+        '45 mins',
+        4.9,
+        7,
+        '325 kcal',
+        18,
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
+        [
+          {'Noodle': 'assets/images/ingre1.png'},
+          {'Shrimp': 'assets/images/ingre2.png'},
+          {'Egg': 'assets/images/ingre3.png'},
+          {'Scallion': 'assets/images/ingre4.png'},
+        ],
+      ),
     ];
   }
 
@@ -82,6 +116,101 @@ class Food {
           11,
           '450 kcal',
           19,
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
+          [
+            {'Noodle': 'assets/images/ingre1.png'},
+            {'Shrimp': 'assets/images/ingre2.png'},
+            {'Egg': 'assets/images/ingre3.png'},
+            {'Scallion': 'assets/images/ingre4.png'},
+          ],
+          highlight: true),
+      Food(
+        'Sai Ua Samun Phrai',
+        'assets/images/dish2.png',
+        'Low Fat',
+        '45 mins',
+        4.9,
+        7,
+        '325 kcal',
+        18,
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
+        [
+          {'Noodle': 'assets/images/ingre1.png'},
+          {'Shrimp': 'assets/images/ingre2.png'},
+          {'Egg': 'assets/images/ingre3.png'},
+          {'Scallion': 'assets/images/ingre4.png'},
+        ],
+      ),
+    ];
+  }
+
+  static List<Food> generateNoodles() {
+    return [
+      Food(
+          'Soba Soup',
+          'assets/images/dish1.png',
+          'No 1 in Sales',
+          '50 mins',
+          4.7,
+          5,
+          '350 kcal',
+          15,
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
+          [
+            {'Noodle': 'assets/images/ingre1.png'},
+            {'Shrimp': 'assets/images/ingre2.png'},
+            {'Egg': 'assets/images/ingre3.png'},
+            {'Scallion': 'assets/images/ingre4.png'},
+          ],
+          highlight: true),
+      Food(
+          'Tomato Chicken',
+          'assets/images/dish4.png',
+          'Most Popular',
+          '40 mins',
+          4.6,
+          11,
+          '450 kcal',
+          19,
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
+          [
+            {'Noodle': 'assets/images/ingre1.png'},
+            {'Shrimp': 'assets/images/ingre2.png'},
+            {'Egg': 'assets/images/ingre3.png'},
+            {'Scallion': 'assets/images/ingre4.png'},
+          ],
+          highlight: true),
+      Food(
+        'Sai Ua Samun Phrai',
+        'assets/images/dish2.png',
+        'Low Fat',
+        '45 mins',
+        4.9,
+        7,
+        '325 kcal',
+        18,
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
+        [
+          {'Noodle': 'assets/images/ingre1.png'},
+          {'Shrimp': 'assets/images/ingre2.png'},
+          {'Egg': 'assets/images/ingre3.png'},
+          {'Scallion': 'assets/images/ingre4.png'},
+        ],
+      ),
+    ];
+  }
+
+  static List<Food> generatePizza(){
+    return [
+      Food(
+          'Soba Soup',
+          'assets/images/dish1.png',
+          'No 1 in Sales',
+          '50 mins',
+          4.7,
+          5,
+          '350 kcal',
+          15,
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc congue quam et tellus facilisis, ultricies imperdiet dui vestibulum',
           [
             {'Noodle': 'assets/images/ingre1.png'},
